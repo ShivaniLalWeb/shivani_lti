@@ -1,0 +1,23 @@
+@mixin font($font-family: false, $size: false, $color: false, $line_height: false, $weight:false) {
+    @if $font-family{font-family:$font-family}
+    @if $size{font-size: $size}
+    @if $color{color:$color}
+    @if $line_height{line-height:$line_height}
+    @if $weight{font-weight:$weight}
+}
+@mixin button($bg_color: false, $radius: false, $border_style: false) {
+    @if $bg_color{background-color:$bg_color}
+    @if $radius{border-radius:$radius}
+    border-style:none;
+}
+@mixin flex($flex:false, $justify_content:false, $align_items:false){
+    @if $flex{display:$flex}
+    @if $justify_content{justify-content:$justify_content}
+    @if $align_items{align-items:$align_items}
+}
+@mixin image($bg-img:false, $bg-repeat:false, $bg-size:false, $img-height:false){
+    @if $bg-img{background-image:$bg-img}
+    @if $bg-repeat{background-repeat:$bg-repeat}
+    @if $bg-size{background-size:$bg-size}
+    @if $img-height{height:$img-height}
+}
