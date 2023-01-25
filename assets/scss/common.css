@@ -1,13 +1,8 @@
-.container {
-  max-width: 898px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .main_title {
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
+  padding-bottom: 20px;
 }
 
 .desc {
@@ -16,10 +11,20 @@
   line-height: 26px;
 }
 
+.wrapper {
+  max-width: 668px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .subtitle {
   font-weight: 700;
   font-size: 56px;
   line-height: 67px;
+  padding-bottom: 20px;
+  max-width: 898px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .heading {
@@ -32,4 +37,37 @@
   font-weight: 400;
   font-size: 28px;
   line-height: 36px;
+}
+
+.homepageBanner {
+  position: relative;
+}
+
+.slick-slider-dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.slick-slider-dots ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.slick-slider-dots ul li {
+  margin: 0 4px;
+}
+.slick-slider-dots ul li button {
+  background: rgba(255, 255, 255, 0.2);
+  height: 12px;
+  width: 12px;
+  overflow: hidden;
+  border: none;
+  font-size: 0;
+  border-radius: 50%;
+}
+.slick-slider-dots ul li.slick-active button {
+  background: #fff;
 }/*# sourceMappingURL=common.css.map */
