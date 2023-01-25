@@ -70,4 +70,12 @@
 }
 .slick-slider-dots ul li.slick-active button {
   background: #fff;
+}
+
+.comm-item {
+  margin: 0 20px;
+}
+
+.community_body img {
+  width: 100%;
 }/*# sourceMappingURL=common.css.map */

@@ -2,8 +2,8 @@ $(document).ready(function(){
 
 $('.variable-width').slick({
     dots: true,
-    prevArrow: '<i class="fa fa-arrow-left">',
-    nextArrow: '<i class="fa fa-arrow-right">',
+    prevArrow: '<i class="fa fa-arrow-left left-arrow">',
+    nextArrow: '<i class="fa fa-arrow-right right-arrow">',
     infinite: true,
     speed: 300,
     slidesToShow: 3,
