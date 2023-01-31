@@ -39,6 +39,30 @@
   color: var(--white);
 }
 
+.watchVideo {
+  position: absolute;
+  bottom: -120px;
+  right: 109px;
+  width: 426px;
+  height: auto;
+}
+.watchVideo .videoTitle h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: var(--black);
+}
+.watchVideo .videoThumbnail {
+  width: 426px;
+  height: 249px;
+}
+.watchVideo .videoThumbnail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .our_services_container {
   padding: 200px 0;
   background-color: var(--white);
@@ -253,10 +277,6 @@
 }
 .clientSpeak_container .client_card .card_img img {
   position: relative;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .clientSpeak_container .client_card .card_img .client_profile {
   position: absolute;
